@@ -1,0 +1,348 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: REGULAR;
+  box-sizing: border-box;
+}
+.container-fluid .container {
+  padding: 20px 0px;
+}
+.navbar-light .navbar-brand {
+  font-size: 24px;
+  padding-top: 0;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-size: 14px;
+}
+.fixDisplay {
+  padding: 20px 0px;
+  border-top: 2px solid #c7c2c4;
+}
+.main-baner {
+  display: inline-flex;
+}
+.main-baner .baner-left {
+  width: 800px;
+  padding-right: 20px;
+}
+.main-baner .baner-left .item-test {
+  display: flex;
+  padding-top: 20px;
+}
+.main-baner .baner-left .item-test .note-list {
+  width: 300px;
+}
+.main-baner .baner-left .item-test .note-list .txt-1 ul li {
+  list-style: none;
+}
+.main-baner .baner-left .item-test .note-list .txt-1 ul li .text-1-1 {
+  display: inline-flex;
+  padding: 22px 0px;
+  background-color: #f5f2f2;
+  justify-content: center;
+}
+.main-baner .baner-left .item-test .note-list .txt-1 ul li .text-1-1 .txt-1-1 {
+  padding: 6px 5px;
+  float: left;
+  width: 15%;
+  font-weight: bold;
+  font-size: 37px;
+  color: #f9a64a;
+  text-align: center;
+}
+.main-baner .baner-left .item-test .note-list .txt-1 ul li .text-1-1 .txt-1-2 {
+  float: left;
+  width: 72%;
+  line-height: 23px;
+  padding: 4px 4px 3px 7px;
+}
+.main-baner .baner-left .item-test .note-list .txt-1 ul li .text-1-1 .txt-1-2 a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+.main-baner .baner-left .item-test .social {
+  width: 600px;
+}
+.main-baner .baner-left .item-test .social .baner-social {
+  position: relative;
+}
+.main-baner .baner-left .item-test .social .baner-social:after {
+  content: "";
+  display: block;
+  padding-bottom: 60%;
+}
+.main-baner .baner-left .item-test .social .baner-social .social-product {
+  position: absolute;
+  background-image: url(img4.png);
+  width: 100%;
+  height: 93%;
+  background-size: cover;
+  background-position: center;
+}
+.main-baner .baner-left .item-test .social .baner-social .social-product p {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 5em 27px 5px 11px;
+}
+.main-baner .baner-left .item-test .social .baner-social .social-product .social-test {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 4em;
+  padding: 5px 26px;
+  background: #ff565c;
+}
+.main-baner .baner-left .item-test .social .right-news {
+  display: flex;
+  grid-column-gap: 20px;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 {
+  position: relative;
+  width: 271px;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 .news1 {
+  position: absolute;
+  background-image: url(img5.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 .news1 p {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 5em 31px 1px 31px;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 .news1 .news-item {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 4em;
+  padding: 5px 26px;
+  background: #ff565c;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 {
+  position: relative;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 .news2 {
+  position: absolute;
+  background-image: url(img6.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 .news2 p {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 5em 31px 1px 31px;
+}
+.main-baner .baner-left .item-test .social .right-news .baner-news1 .news2 .news-item {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 4em;
+  padding: 5px 26px;
+  background: #ff565c;
+}
+.login {
+  display: inline-flex;
+  width: 20%;
+}
+.main-baner {
+  margin: auto;
+}
+.baner {
+  position: relative;
+}
+.baner:after {
+  content: "";
+  display: block;
+  padding-bottom: 60%;
+}
+.baner .baner-photo {
+  position: absolute;
+  background-image: url(green-chameleon-176136.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.baner .baner-photo h1 {
+  padding: 6em 40px 0px 50px;
+  font-size: 32px;
+  text-align: center;
+}
+.baner .baner-photo p {
+  padding: 0em 9em;
+  font-size: 18px;
+  text-align: center;
+}
+.baner .baner-photo .detail {
+  padding: 5px 30px;
+  background: #ff565c;
+  position: absolute;
+  left: 23em;
+  font-size: 14px;
+  top: 10em;
+}
+.baner-right {
+  width: 300px;
+  height: 500px;
+}
+.baner-right .baner-note-list {
+  position: relative;
+}
+.baner-right .baner-note-list:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.baner-right .baner-note-list .note-list {
+  position: absolute;
+  background-image: url(img1.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.baner-right .baner-note-list .note-list p {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 5em 27px 5px 11px;
+}
+.baner-right .baner-note-list .note-list .finance {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 4em;
+  padding: 5px 26px;
+  background: #ff565c;
+}
+.baner-right .baner-news {
+  position: relative;
+}
+.baner-right .baner-news:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.baner-right .baner-news .news {
+  position: absolute;
+  background-image: url(img3.png);
+  width: 100%;
+  height: 91%;
+  background-size: cover;
+  background-position: center;
+}
+.baner-right .baner-news .news p {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 5em 68px 1px 56px;
+}
+.baner-right .baner-news .news .news-item {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 4em;
+  padding: 5px 26px;
+  background: #ff565c;
+}
+.note-test {
+  background-color: #ff565c;
+  margin: 20px 0px;
+  padding: 43px 32px;
+}
+.note-test h2 {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 37px;
+  font-weight: revert;
+}
+.note-test p {
+  font-size: 18px;
+  color: #ffffff;
+}
+.note-test h3 {
+  font-size: 16px;
+  color: #ffffff;
+  border-top: 2px solid #fbf3f5;
+  border-bottom: 2px solid #fbf3f5;
+  text-align: center;
+  line-height: 40px;
+}
+.logo-bg {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo-bg .logo-minds {
+  width: 10%;
+  font-size: 30px;
+}
+.logo-bg .home {
+  width: 70%;
+}
+.logo-bg .home ul {
+  display: inline-flex;
+  line-height: 40px;
+}
+.logo-bg .home ul li {
+  display: inline-block;
+  padding: 5px 12px;
+}
+.logo-bg .home ul li a {
+  text-decoration: none;
+  display: block;
+  font-family: OpenSans-Regular;
+  color: #a8a7a7;
+}
+.footer-1 {
+  background: burlywood;
+  display: flex;
+}
+.footer-1 .footer-2 {
+  display: flex;
+}
+.footer-1 .footer-2 .footer-3 {
+  width: 14%;
+}
+.footer-1 .footer-2 .footer-3 ul {
+  list-style: none;
+}
+.footer-1 .footer-2 .footer-3 ul li {
+  padding: 0px 10px;
+}
+.footer-1 .footer-2 .footer-3 ul li a {
+  text-align: center;
+  list-style: none;
+  color: #ffff;
+}
+.footer-right1 {
+  display: inline-flex;
+}
+.footer-right1 li {
+  list-style: none;
+}
+.footer-right1 li a {
+  font-size: 12px;
+  color: #ffff;
+}
